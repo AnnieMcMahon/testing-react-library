@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Testing React-TypeScript Component Library
+This is a sample site that uses the react-ts-library I created:  
+[https://github.com/AnnieMcMahon/react-ts-library](https://github.com/AnnieMcMahon/react-ts-library)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technology used 
+CSS, TypeScript, React
 
-Currently, two official plugins are available:
+## Instructions
+Fork this repository (click on the Fork icon on GitHub)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In your code editor (I use Visual Studio Code), open the folder where you want to add this project  
+(example: C:\myAwesomeProjects)
 
-## Expanding the ESLint configuration
+Open a terminal and clone the project  
+(copy and paste your fork's URL after "git clone"):  
+`git clone https://github.com/<YOUR-USERNAME>/testing-react-library.git`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Open the project folder in your code editor   
+(example: C:\myAwesomeProjects\testing-react-library)
 
-- Configure the top-level `parserOptions` property like this:
+Install dependencies:  
+`npm install`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Run the project:  
+`npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open the app on http://localhost:5173/   
+(CTRL+click on the link to open the web page, or type it on your browser)
